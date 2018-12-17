@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GITHUB">
+	<test name="SAMPLE Testing">
+		<classes>
+			<!-- login module , NO of test case : 1 -->
+			<class name="com.core.App" />
+			<class name="com.GitHub.SampleDemo" />
+		</classes>
+	</test>
+</suite> 
