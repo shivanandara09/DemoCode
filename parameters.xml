@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Demo Parameters">
+   <test name = "test1">
+   
+    <parameter name="url" value="google.com"/>
+     <parameter name="userid" value="test@gmail.com"/>
+
+      <classes>
+         <class name = "com.techgeek.testng.ParametersAnnaotation" />
+      </classes>
+   
+   </test>
+</suite>

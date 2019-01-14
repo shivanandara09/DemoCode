@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Demo Parameters]">
+  <test thread-count="5" name="test1(failed)">
+    <parameter name="userid" value="test@gmail.com"/>
+    <parameter name="url" value="google.com"/>
+    <classes>
+      <class name="com.techgeek.testng.ParametersAnnaotation">
+        <methods>
+          <include name="parameterTest"/>
+        </methods>
+      </class> <!-- com.techgeek.testng.ParametersAnnaotation -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Demo Parameters] -->
